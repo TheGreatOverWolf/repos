@@ -1,8 +1,41 @@
 
-div {background-color: black;}
-p   {color: blue;}
+h1.home {font-size: 48px;
+        color: rgb(255, 20, 147);
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+p {color: rgb(255, 69, 230);}
+.menu {
+        font-size: 40px;
+        color: rgb(201, 5, 70);
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #test {
         background-color: chartreuse;
         color: red;}
 
 .lorem {color: darkgreen;}
+
+.flex-container {
+        display: flex;
+        justify-content: space-around;
+        border: 5px solid rgb(201, 5, 70);
+  }
+  .flex-container > div {
+        background-color: peachpuff;
+        height: 150px;
+        width: 100px;
+        flex: 1 1 auto;
+  }
+  .box {
+        border-radius: 20px;
+        margin: 50px;
+        padding: 50px;
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
