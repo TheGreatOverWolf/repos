@@ -6,36 +6,37 @@ h1.home {font-size: 48px;
         }
 
 p {color: rgb(255, 69, 230);}
-.menu {
-        font-size: 40px;
-        color: rgb(201, 5, 70);
-        margin-bottom: 10px;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 #test {
         background-color: chartreuse;
         color: red;}
 
-.lorem {color: darkgreen;}
+.lorem {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(75, 0, 130);
+        }
 
-.flex-container {
-        display: flex;
-        justify-content: space-around;
-        border: 5px solid rgb(201, 5, 70);
-  }
-  .flex-container > div {
-        background-color: peachpuff;
-        height: 150px;
-        width: 100px;
-        flex: 1 1 auto;
-  }
-  .box {
-        border-radius: 20px;
-        margin: 50px;
-        padding: 50px;
-        font-size: 100px;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+.navbar ul{
+        list-style: none;
+        background-color: rgb(133, 2, 67);
+        padding: 0px;
+        margin:  0px;
+        overflow: hidden;
+}
+.navbar a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block;
+        padding: 15px ;
+        
+}
+.navbar a:hover{
+        background-color: rgb(255, 20, 147);
+        color: white;
+}
+.navbar li{
+        float: left;
+        border-right: 1px solid rgb(255, 255, 255);
+
+}
